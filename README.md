@@ -37,7 +37,44 @@ or equilibrium vapor pressure is defined as the pressure exerted by a vapor in t
 with its condensed phases (solid or liquid) at a given temperature in a closed system.The equilibrium
 vapor pressure is an indication of a liquid's evaporation rate.
 
+__________________________________________________________________________________________________
 
+### Output
+
+```go
+Tell me the temp 24.7
+Tell me humidity 33
+Presure in hpa 1006
+Alt in m 0
+VAPOUR PARTIAL PRESSURE (HPa)
+10.188213546228416
+---------
+Temp (c)
+24.7
+---------
+Relative Humidity %
+33
+---------
+Baro (HPa)
+1006
+---------
+Vapour Saturation Pressure (HPa)
+31.047343166324474
+---------
+Dew Point (C)
+7.252448530556964
+---------
+Absolute Humidity (g/m^3)
+7.411637136694928
+---------
+Specific Humidity (g/kg
+6.323480581122353
+---------
+Cloud Base (m)
+2180.9439336803794
+{"T":24.7,"Rh":33,"Mb":1006,"Alt":0,"E":10.188213546228416,"Es":31.047343166324474,"Tdc":7.252448530556964,"Ah":7.411637136694928,"SH":6.323480581122353,"Cb":2180.9439336803794}
+
+```
 __________________________________________________________________________________________________
 
 
